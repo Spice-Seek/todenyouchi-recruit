@@ -4608,7 +4608,7 @@ body.fixed {
 }
 @media screen and (max-width: 768px) {
   #footer .inner .inner-contents .layout .block.-head .logo > a img {
-    max-width: 234px;
+    max-width: 80%;
   }
 }
 #footer .inner .inner-contents .layout .block.-head .btn-wrap {
@@ -4617,16 +4617,11 @@ body.fixed {
 @media screen and (max-width: 768px) {
   #footer .inner .inner-contents .layout .block.-head .btn-wrap {
     margin-top: 40px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
     gap: 10px;
-  }
+}
 }
 @media screen and (max-width: 374px) {
   #footer .inner .inner-contents .layout .block.-head .btn-wrap {
@@ -4652,6 +4647,9 @@ body.fixed {
 @media screen and (max-width: 768px) {
   #footer .inner .inner-contents .layout .block.-head .btn-wrap .btn > a {
     margin: 0 auto;
+    font-size: 16px;
+    padding: 10px 80px 10px 60px;
+    min-height: 55px;
   }
 }
 #footer .inner .inner-contents .layout .block.-head .btn-wrap .bnr {
@@ -4671,7 +4669,7 @@ body.fixed {
 }
 @media screen and (max-width: 768px) {
   #footer .inner .inner-contents .layout .block.-head .btn-wrap .bnr:not(:first-child) {
-    margin-top: 0;
+    margin-top: 10px;
   }
 }
 #footer .inner .inner-contents .layout .block.-head .btn-wrap .bnr > a img {
