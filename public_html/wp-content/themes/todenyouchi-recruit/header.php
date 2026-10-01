@@ -7,14 +7,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 <meta name="format-detection" content="telephone=no">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MZSDH36G');</script>
-<!-- End Google Tag Manager -->
-
 <!-- font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +23,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZSDH36G"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
     <div id="wrapper">
 
@@ -121,6 +108,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <p class="sp-entry-btn"><a href="<?php echo esc_url( home_url( '/recruitment/newgraduate/' ) ); ?>">新卒採用</a></p>
                                     <p class="sp-entry-btn"><a href="<?php echo esc_url( home_url( '/recruitment/career/' ) ); ?>">キャリア採用</a></p>
                                 </div>
+                            </div>
+                            <div class="dsp-sp" style="margin-top: 40px; padding: 30px 0 40px; border-top: 1px solid rgba(0, 0, 0, 0.15);">
+                                <ul style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px 20px; list-style: none; padding: 0; margin: 0;">
+                                    <li><a href="https://tepco-youchi.co.jp/privacy.html" target="_blank" style="font-size: 13px; text-decoration: none; display: inline-block;">個人情報保護方針</a></li>
+                                    <li><a href="https://www.onecareer.jp/companies/5941" target="_blank" style="font-size: 13px; text-decoration: none; display: inline-block;">ワンキャリア</a></li>
+                                    <li><a href="<?php echo esc_url(home_url('/harassment/')); ?>" style="font-size: 13px; text-decoration: none; display: inline-block;">ハラスメント対応窓口</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

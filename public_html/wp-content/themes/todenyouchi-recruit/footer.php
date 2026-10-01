@@ -59,6 +59,9 @@
                                     <li>
                                         <p class="nav-link"><a href="https://www.onecareer.jp/companies/5941" target="_blank">ワンキャリア</a></p>
                                     </li>
+                                    <li>
+                                        <p class="nav-link"><a href="<?php echo esc_url(home_url('/harassment/')); ?>">ハラスメント対応窓口</a></p>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
